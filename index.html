@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/f1d820ecea.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>BikeShere</title>
+</head>
+
+<body>
+    <header class="content-header">
+        <nav class="desktop">
+            <img src="img/1.png" style="width:120px;" alt="">
+            <ul>
+                <li><a href="#home" class="">HOME</a></li>
+                <li><a href="#sobre" class="">ABOUT</a></li>
+                <li><a href="#map" class="">MAP</a></li>
+                <li><a href="#download" class="">DOWLOAD</a></li>
+                <li><a href="#links-e-duvidas" class="">LINKS AND DOUBTS</a></li>
+                <li><a href="" class="">CONTACT</a></li>
+                <li><a href="" class="">REGISTER</a></li>
+            </ul><!--ul-->
+            <div class="mobile-menu-icon">
+                <i id="icon" class="fa-solid fa-bars" onclick="showBar()"></i>
+            </div><!--mobile-menu-icon-->
+        </nav><!--desktop-->
+        <div class="box-mobile">
+            <ul>
+                <li><a href="#home" class="">HOME</a></li>
+                <li><a href="#sobre" class="">ABOUT</a></li>
+                <li><a href="#map" class="">MAP</a></li>
+                <li><a href="#download" class="">DOWLOAD</a></li>
+                <li><a href="#links-e-duvidas" class="">LINKS AND DOUBTS</a></li>
+                <li><a href="" class="">CONTACT</a></li>
+                <li><a href="" class="">REGISTER</a></li>
+            </ul><!--ul-->
+        </div><!--mobile-->
+    </header><!--content-header -->
+    <section id="home" class="banner-principal"> 
+        <div class="overlay">
+            <div class="center">
+                <div class="box-content-banner">
+                    <h1>Welcome to <span> The Website</span></h1>
+                    <p class="description white">Lorem Ipsum is simply </p>
+                    <p class="description white">Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                    <p class="description white">• Lorem Ipsum has been the industry's standard dummy</p>
+                    <p class="description white">• It is a long established fact that a reader will be distracted by the
+                        readable content of a page when looking at its layout.</p>
+                    <p class="description white">is simply dummy text. </p>
+                    <p class="description white">Lorem Ipsum !</p>
+                    <input type="submit" name="acao" value="How it works?">
+                </div><!--box-content-banner-->
+            </div><!-- center -->
+        </div><!-- overlay-->
+    </section><!-- banner-principal -->
+    <section id="sobre" class="content-sobre">
+        <div class="center">
+            <div class=content-box>
+                <div class="box-img">
+                    <figure>
+                        <img class="" style="width: 400px;" src="IMG/2.png">
+                    </figure>
+                </div><!--box-img-->
+                <div class="box">
+                    <h2>Poject</h2>
+                    <p class="description white">It is a long established fact that a reader will be distracted by the
+                        readable content of a page when looking at its layout. </p>
+                    <p class="description white">The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters, as opposed to using 'Content here, content here', making it look like
+                        readable English.</p>
+                    <h2>Ticket</h2>
+                    <p class="description white">There are many variations of passages of Lorem Ipsum available, but the
+                        majority have suffered alteration in some form, by injected humour, or randomised words which
+                        don't look even slightly believable.</p>
+                    <p class="description white">If you are going to use a passage of Lorem Ipsum, you need to be sure
+                        there isn't anything embarrassing hidden in the middle of text.</p>
+                </div><!-- box -->
+            </div><!-- content-box -->
+        </div><!-- center -->
+    </section><!-- content-sobre -->
+    <section class="content-sobre-itens">
+        <div class="center">
+            <div class="content-box">
+                <div class="box-itens">
+                    <div class="box-icon-description">
+                        <i class="fa-solid fa-mobile-retro"></i>
+                        <p class="description black"><b>Register</b></p>
+                        <p class="description black">Lorem Ipsum is simply dummy text</p>
+                    </div><!--box-icon-description-->
+                </div> <!-- box-itens -->
+                <div class="box-itens">
+                    <div class="box-icon-description">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <p class="description black"><b>Validate your registration</b></p>
+                        <p class="description black">It is a long established fact that a reader will be distracted</p>
+                    </div><!--box-icon-description-->
+                </div> <!-- box-itens -->
+                <div class="box-itens">
+                    <div class="box-icon-description">
+                        <i class="fa-solid fa-ticket"></i>
+                        <p class="description black"><b>How to use</b></p>
+                        <p class="description black">Contrary to popular belief, Lorem Ipsum is not simply random text.
+                        </p>
+                    </div><!--box-icon-description-->
+                </div> <!-- box-itens -->
+                <div class="box-itens">
+                    <div class="box-icon-description">
+                        <i class="fa-solid fa-person-biking"></i>
+                        <p class="description black"><b>Let's pedal</b></p>
+                        <p class="description black">There are many variations of passages of Lorem Ipsum available, but
+                            the majority have suffered alteration in some form</p>
+                    </div><!--box-icon-description-->
+                </div> <!-- box-itens -->
+            </div><!--content-box-->
+        </div><!-- center -->
+    </section><!-- content-sobre-itens -->
+    <section id="map" class="content-map">
+        <div class="center">
+            <div class="content-box">
+                <div class="content-box-map">
+                    <h2 class="darkcyan">Map</h2>
+                    <div class="box-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122940.944287899!2d-56.20306897435155!3d-15.65007263799797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x939dadb18cb64935%3A0xfbb74bb1fac6cf4c!2sV%C3%A1rzea%20Grande%2C%20State%20of%20Mato%20Grosso!5e0!3m2!1sen!2sbr!4v1675111769220!5m2!1sen!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div><!--box-map-->
+                </div><!--content-box-map-->
+            </div><!-- content-box-->
+        </div><!-- center -->
+    </section><!-- content-map -->
+    <section id="download" class="content-download">
+        <div class="center">
+            <div class="content-box">
+                <div class="content-box-decription">
+                    <h1 class="darkcyan">Our app</h1>
+                    <p>Lorem Ipsum is simply dummy text:</p>
+                    <ul>
+                        <li>The standard Lorem Ipsum passage, used since the 1500s</li>
+                        <li>1914 translation by H. Rackham</li>
+                        <li>Section 1.10.32 of "de Finibus Bonorum et Malorum"</li>
+                        <li>written by Cicero in 45 BC</li>
+                    </ul>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+                    <a class="googleplay" href=""><img src="IMG/googleplay.png" alt=""></a>
+                    <a class="appstore" href=""><img src="img/appstory.png" alt=""></a>
+                </div><!--content-box-description-->
+                <figure>
+                    <img src="img/mockup-1.png" alt="mockup da tela de login do app">
+                </figure><!--figure-->
+            </div><!-- content-box-->
+        </div><!-- center -->
+    </section><!--content-download -->
+    <section id="links-e-duvidas" class="content-links">
+        <div class=center>
+            <h2 class="centro darkcyan">Important links</h2>
+            <div class="content-box">
+                <div class="box-itens-radius">
+                    <div class="box-icon-description">
+                        <i class="fa-solid fa-book"></i>
+                        <p>Cyclist's manual</p>
+                    </div><!--box-icon-description-->
+                </div><!--box-itens-radius-->
+                <div class="box-itens-radius">
+                    <div class="box-icon-description">
+                        <i class="fa-solid fa-wifi"></i>
+                        <p>WIFI</p>
+                    </div><!--box-icon-description-->
+                </div><!--box-itens-radius-->
+                <div class="box-itens-radius">
+                    <div class="box-icon-description">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <p>Token</p>
+                    </div><!--box-icon-description-->
+                </div><!--box-itens-radius-->
+                <div class="box-itens-radius">
+                    <div class="box-icon-description">
+                        <i class="fa-brands fa-square-whatsapp"></i>
+                        <p>Whatsapp</p>
+                    </div><!--box-icon-description-->
+                </div><!--box-itens-radius-->
+            </div><!-- content-box-->
+        </div><!-- center -->
+    </section><!--content-links-->
+    <section class="content-duvidas">
+        <div class="center">
+            <div class="content-box">
+                <div class="box-content-duvidas">
+                    <h2 class="white">Doubts</h2>
+                    <div class="duvidas-bar" onclick=" showHide('#pergunta1')">
+                        <p>How do I pick up a Bicycle for a minor?</p>
+                        <i id="plus-1" class="fa-solid fa-plus"></i>
+                    </div><!--duvidas-bar-->
+                    <div id="pergunta1" class="hidden-description">
+                        <p class="p-duvida white">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                            an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div><!--hidden-description-->
+                    <div class="duvidas-bar " onclick="showHide('#pergunta2')">
+                        <p>Why include the credit card if the project is free?</p>
+                        <i class="fa-solid fa-plus"></i>
+                    </div><!--duvidas-bar-->
+                    <div id="pergunta2" class="hidden-description">
+                        <p class="p-duvida white">It is a long established fact that a reader will be distracted by the
+                            readable content of a page when looking at its layout. The point of using Lorem Ipsum is
+                            that it has a more-or-less normal distribution of letters, as opposed to using 'Content
+                            here, content here', making it look like readable English.</p>
+                    </div><!--hidden-description-->
+                    <div class="duvidas-bar" onclick="showHide('#pergunta3')">
+                        <p>If I don't have a credit card, can I use the project?</p>
+                        <i id="action" class="fa-solid fa-plus"></i>
+                    </div><!--duvidas-bar-->
+                    <div id="pergunta3" class="hidden-description">
+                        <p class="p-duvida white">Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                            has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
+                            old.</p>
+                    </div><!--hidden-description-->
+                    <div class="duvidas-bar" onclick="showHide('#pergunta4')">
+                        <p>How do I change my registration?</p>
+                        <i id="action" class="fa-solid fa-plus"></i>
+                    </div><!--duvidas-bar-->
+                    <div id="pergunta4" class="hidden-description">
+                        <p class="p-duvida white">There are many variations of passages of Lorem Ipsum available, but
+                            the majority have suffered alteration in some form, by injected humour, or randomised words
+                            which don't look even slightly believable. </p>
+                    </div><!--hidden-description-->
+                    <div class="duvidas-bar" onclick=" showHide('#pergunta5')">
+                        <p>How do I change my email?</p>
+                        <i class="fa-solid fa-plus" onclick="showMinus('#icon')"></i>
+                    </div><!--duvidas-bar-->
+                    <div id="pergunta5" class="hidden-description">
+                        <p class="p-duvida white">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                            an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div><!--hidden-description-->
+                    <div class="duvidas-bar " onclick="showHide('#pergunta6')">
+                        <p>I forgot my password. How should I proceed?</p>
+                        <i class="fa-solid fa-plus action"></i>
+                    </div><!--duvidas-bar-->
+                    <div id="pergunta6" class="hidden-description">
+                        <p class="p-duvida white">It is a long established fact that a reader will be distracted by the
+                            readable content of a page when looking at its layout. The point of using Lorem Ipsum is
+                            that it has a more-or-less normal distribution of letters, as opposed to using 'Content
+                            here, content here', making it look like readable English.</p>
+                    </div><!--hidden-description-->
+                    <div class="duvidas-bar" onclick="showHide('#pergunta7')">
+                        <p>How can I pay to use the Bikes?</p>
+                        <i id="action" class="fa-solid fa-plus"></i>
+                    </div><!--duvidas-bar-->
+                    <div id="pergunta7" class="hidden-description">
+                        <p class="p-duvida white">Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                            has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
+                            old. </p>
+                    </div><!--hidden-description-->
+                    <div class="duvidas-bar" onclick="showHide('#pergunta8')">
+                        <p>What is the validity of each Pass and how much do they cost?</p>
+                        <i id="action" class="fa-solid fa-plus"></i>
+                    </div><!--duvidas-bar-->
+                    <div id="pergunta8" class="hidden-description">
+                        <p class="p-duvida white">There are many variations of passages of Lorem Ipsum available, but
+                            the majority have suffered alteration in some form, by injected humour, or randomised words
+                            which don't look even slightly believable.</p>
+                    </div><!--hidden-description-->
+                </div><!--box-content-duvidas-->
+            </div><!-- content-box-->
+        </div><!-- center -->
+    </section><!--content-duvidas-->
+    <section class="content-contatos">
+        <div class="center">
+            <div class="box-contatos">
+                <h2 class="darkcyan">Contact us</h2>
+                <h3 class="darkcyan">contact</h3>
+                <p>8003 9990</p>
+                <p>Lorem Ipsum</p>
+                <h2 class="darkcyan">opening hours</h2>
+                <p>Section 1.10.33 of "de Finibus Bonorum et Malorum"</p>
+            </div><!--box-contatos-->
+        </div><!-- center -->
+    </section><!-- content-contatos-->
+    <footer class="content-footer">
+        <div class="box-content-footer">
+            <div class="box-description">
+                <p class="white">written by Cicero in 45 BC.</p>
+                <p class="white">All rights reserved.</p>
+            </div><!--BOX-description-->
+            <div class="box-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div><!--box-icons-->
+        </div><!--box-content-footer-->
+    </footer><!--content-footer-->
+    <script src="script.js"></script>
+</body><!--Body-->
+<!--jv_vj-->
+</html><!--HTML-->
